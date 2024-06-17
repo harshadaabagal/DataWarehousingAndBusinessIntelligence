@@ -20,3 +20,5 @@ Data Preparation Workflow:
 
 ![image](https://github.com/harshadaabagal/DataWarehousingAndBusinessIntelligence/assets/43906676/c33ba63e-8b1b-4ff3-9d8f-b9c44f376308)
 
+
+
