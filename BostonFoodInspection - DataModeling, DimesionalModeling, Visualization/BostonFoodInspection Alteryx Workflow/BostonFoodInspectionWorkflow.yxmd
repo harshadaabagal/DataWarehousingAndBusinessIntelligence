@@ -1,0 +1,1335 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>FoodInspection.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="_id" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="V_WString" />
+            <Field name="businessname" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="V_WString" />
+            <Field name="dbaname" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="V_WString" />
+            <Field name="legalowner" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="V_WString" />
+            <Field name="namelast" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="V_WString" />
+            <Field name="namefirst" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="V_WString" />
+            <Field name="licenseno" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="V_WString" />
+            <Field name="issdttm" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="V_WString" />
+            <Field name="expdttm" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="V_WString" />
+            <Field name="licstatus" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="V_WString" />
+            <Field name="licensecat" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="V_WString" />
+            <Field name="descript" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="V_WString" />
+            <Field name="result" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="V_WString" />
+            <Field name="resultdttm" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="V_WString" />
+            <Field name="violation" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="V_WString" />
+            <Field name="viol_level" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="V_WString" />
+            <Field name="violdesc" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="V_WString" />
+            <Field name="violdttm" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="V_WString" />
+            <Field name="viol_status" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="V_WString" />
+            <Field name="status_date" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="V_WString" />
+            <Field name="comments" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="V_WString" />
+            <Field name="address" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="V_WString" />
+            <Field name="city" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="V_WString" />
+            <Field name="state" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="V_WString" />
+            <Field name="zip" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="V_WString" />
+            <Field name="property_id" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="V_WString" />
+            <Field name="location" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="282" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="businessname" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="450" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>BusinessId</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="606" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>sor_key</FieldName>
+          <StartValue>15</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="750" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="sor_key" selected="True" />
+            <SelectField field="BusinessId" selected="True" />
+            <SelectField field="businessname" selected="True" />
+            <SelectField field="dbaname" selected="True" />
+            <SelectField field="legalowner" selected="True" />
+            <SelectField field="namelast" selected="True" />
+            <SelectField field="namefirst" selected="True" />
+            <SelectField field="descript" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="894" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="businessname" selected="True" />
+            <Field field="dbaname" selected="True" />
+            <Field field="legalowner" selected="True" />
+            <Field field="namelast" selected="True" />
+            <Field field="namefirst" selected="True" />
+            <Field field="descript" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="sor_key" source="RecordID: Starting Value=15" type="Int32" />
+            <Field name="BusinessId" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="businessname" size="56" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="V_String" />
+            <Field name="dbaname" size="36" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="V_String" />
+            <Field name="legalowner" size="46" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="V_String" />
+            <Field name="namelast" size="50" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="V_String" />
+            <Field name="namefirst" size="34" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="V_String" />
+            <Field name="descript" size="29" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1026" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File />
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions UseDcm="true" MaxRecords="" Format="23">
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TableStyle>Quoted</TableStyle>
+            <TransactionMessages>False</TransactionMessages>
+            <Table>DimBusiness</Table>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <OutputOption>Overwrite</OutputOption>
+            <Connection DcmType="ConnectionId">12f054d8-19b7-4b81-be50-84697a10f66b</Connection>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:MySQL ODBC — Username and password
+Table=DimBusiness</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="282" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="_id" />
+            <Field field="businessname" />
+            <Field field="dbaname" />
+            <Field field="legalowner" />
+            <Field field="namelast" />
+            <Field field="namefirst" />
+            <Field field="licenseno" />
+            <Field field="issdttm" />
+            <Field field="expdttm" />
+            <Field field="licstatus" />
+            <Field field="licensecat" />
+            <Field field="descript" />
+            <Field field="result" />
+            <Field field="resultdttm" />
+            <Field field="violation" />
+            <Field field="viol_level" />
+            <Field field="violdesc" />
+            <Field field="violdttm" />
+            <Field field="viol_status" />
+            <Field field="status_date" />
+            <Field field="comments" />
+            <Field field="address" />
+            <Field field="city" />
+            <Field field="state" />
+            <Field field="zip" />
+            <Field field="property_id" />
+            <Field field="location" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="450" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>DateId</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="606" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>sor_key</FieldName>
+          <StartValue>15</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="762" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="sor_key" selected="True" />
+            <SelectField field="DateId" selected="True" />
+            <SelectField field="issdttm" selected="True" />
+            <SelectField field="expdttm" selected="True" />
+            <SelectField field="resultdttm" selected="True" />
+            <SelectField field="violdttm" selected="True" />
+            <SelectField field="status_date" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1026" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File />
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions UseDcm="true" MaxRecords="" Format="23">
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TableStyle>Quoted</TableStyle>
+            <TransactionMessages>False</TransactionMessages>
+            <Table>DimDate</Table>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <OutputOption>Overwrite</OutputOption>
+            <Connection DcmType="ConnectionId">12f054d8-19b7-4b81-be50-84697a10f66b</Connection>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:MySQL ODBC — Username and password
+Table=DimDate</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="930" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="issdttm" selected="True" />
+            <Field field="expdttm" selected="True" />
+            <Field field="resultdttm" selected="True" />
+            <Field field="violdttm" selected="True" />
+            <Field field="status_date" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="sor_key" source="RecordID: Starting Value=15" type="Int32" />
+            <Field name="DateId" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="issdttm" size="22" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="String" />
+            <Field name="expdttm" size="22" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="String" />
+            <Field name="resultdttm" size="26" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="String" />
+            <Field name="violdttm" size="22" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="String" />
+            <Field name="status_date" size="22" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="282" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="_id" />
+            <Field field="businessname" />
+            <Field field="dbaname" />
+            <Field field="legalowner" />
+            <Field field="namelast" />
+            <Field field="namefirst" />
+            <Field field="licenseno" />
+            <Field field="issdttm" />
+            <Field field="expdttm" />
+            <Field field="licstatus" />
+            <Field field="licensecat" />
+            <Field field="descript" />
+            <Field field="result" />
+            <Field field="resultdttm" />
+            <Field field="violation" />
+            <Field field="viol_level" />
+            <Field field="violdesc" />
+            <Field field="violdttm" />
+            <Field field="viol_status" />
+            <Field field="status_date" />
+            <Field field="comments" />
+            <Field field="address" />
+            <Field field="city" />
+            <Field field="state" />
+            <Field field="zip" />
+            <Field field="property_id" />
+            <Field field="location" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="450" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>ViolationId</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="606" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>sor_key</FieldName>
+          <StartValue>15</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="750" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="sor_key" selected="True" />
+            <SelectField field="ViolationId" selected="True" />
+            <SelectField field="violation" selected="True" />
+            <SelectField field="viol_level" selected="True" />
+            <SelectField field="violdesc" selected="True" />
+            <SelectField field="comments" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="894" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="violation" selected="True" />
+            <Field field="viol_level" selected="True" />
+            <Field field="violdesc" selected="True" />
+            <Field field="comments" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="sor_key" source="RecordID: Starting Value=15" type="Int32" />
+            <Field name="ViolationId" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="violation" size="24" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="V_String" />
+            <Field name="viol_level" size="4" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="String" />
+            <Field name="violdesc" size="141" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="V_WString" />
+            <Field name="comments" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="990" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File />
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions UseDcm="true" MaxRecords="" Format="23">
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TableStyle>Quoted</TableStyle>
+            <TransactionMessages>False</TransactionMessages>
+            <Table>DimViolation</Table>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <OutputOption>Overwrite</OutputOption>
+            <Connection DcmType="ConnectionId">12f054d8-19b7-4b81-be50-84697a10f66b</Connection>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:MySQL ODBC — Username and password
+Table=DimViolation</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="282" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="licenseno" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="438" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>LicenseId</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="594" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>sor_key</FieldName>
+          <StartValue>15</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="738" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="sor_key" selected="True" />
+            <SelectField field="LicenseId" selected="True" />
+            <SelectField field="licenseno" selected="True" />
+            <SelectField field="licensecat" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="870" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="licenseno" selected="True" />
+            <Field field="licensecat" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="sor_key" source="RecordID: Starting Value=15" type="Int32" />
+            <Field name="LicenseId" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="licenseno" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="Int32" />
+            <Field name="licensecat" size="3" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodInspection.tsv" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="918" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File />
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions UseDcm="true" MaxRecords="" Format="23">
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TableStyle>Quoted</TableStyle>
+            <TransactionMessages>False</TransactionMessages>
+            <Table>DimLicense</Table>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <OutputOption>Overwrite</OutputOption>
+            <Connection DcmType="ConnectionId">12f054d8-19b7-4b81-be50-84697a10f66b</Connection>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:MySQL ODBC — Username and password
+Table=DimLicense</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodLicense.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>FoodLicense.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="businessname" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodLicense.csv" type="V_String" />
+            <Field name="dbaname" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodLicense.csv" type="V_String" />
+            <Field name="address" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodLicense.csv" type="V_String" />
+            <Field name="city" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodLicense.csv" type="V_String" />
+            <Field name="state" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodLicense.csv" type="V_String" />
+            <Field name="zip" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodLicense.csv" type="V_String" />
+            <Field name="licstatus" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodLicense.csv" type="V_String" />
+            <Field name="licensecat" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodLicense.csv" type="V_String" />
+            <Field name="descript" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodLicense.csv" type="V_String" />
+            <Field name="license_add_dt_tm" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodLicense.csv" type="V_String" />
+            <Field name="dayphn_cleaned" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodLicense.csv" type="V_String" />
+            <Field name="property_id" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodLicense.csv" type="V_String" />
+            <Field name="latitude" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodLicense.csv" type="V_String" />
+            <Field name="longitude" size="254" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodLicense.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="246" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>GeoId</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="402" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>sor_key</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="558" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="sor_key" selected="True" />
+            <SelectField field="GeoId" selected="True" />
+            <SelectField field="address" selected="True" />
+            <SelectField field="city" selected="True" />
+            <SelectField field="state" selected="True" />
+            <SelectField field="zip" selected="True" />
+            <SelectField field="latitude" selected="True" />
+            <SelectField field="longitude" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="714" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="address" selected="True" />
+            <Field field="city" selected="True" />
+            <Field field="state" selected="True" />
+            <Field field="zip" selected="True" />
+            <Field field="latitude" selected="True" />
+            <Field field="longitude" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="sor_key" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="GeoId" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="address" size="28" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodLicense.csv" type="V_String" />
+            <Field name="city" size="27" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodLicense.csv" type="V_String" />
+            <Field name="state" size="2" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodLicense.csv" type="String" />
+            <Field name="zip" size="5" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodLicense.csv" type="String" />
+            <Field name="latitude" size="18" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodLicense.csv" type="String" />
+            <Field name="longitude" size="18" source="File: C:\Users\Harshada\OneDrive\Desktop\Daily Work\DABI\Boston Food Insepction\FoodLicense.csv" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="798" y="822" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File />
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions UseDcm="true" MaxRecords="" Format="23">
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TableStyle>Quoted</TableStyle>
+            <TransactionMessages>False</TransactionMessages>
+            <Table>DimGeography</Table>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <OutputOption>Overwrite</OutputOption>
+            <Connection DcmType="ConnectionId">12f054d8-19b7-4b81-be50-84697a10f66b</Connection>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:MySQL ODBC — Username and password
+Table=DimGeography</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="246" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>PropertyId</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="402" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>sor_key</FieldName>
+          <StartValue>15</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="546" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="sor_key" selected="True" />
+            <SelectField field="PropertyId" selected="True" />
+            <SelectField field="address" selected="True" />
+            <SelectField field="license_add_dt_tm" selected="True" />
+            <SelectField field="dayphn_cleaned" selected="True" />
+            <SelectField field="property_id" selected="True" />
+            <SelectField field="LicenseId" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="642" y="906" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File />
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions UseDcm="true" MaxRecords="" Format="23">
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TableStyle>Quoted</TableStyle>
+            <TransactionMessages>False</TransactionMessages>
+            <Table>DimProperty</Table>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <OutputOption>Overwrite</OutputOption>
+            <Connection DcmType="ConnectionId">12f054d8-19b7-4b81-be50-84697a10f66b</Connection>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:MySQL ODBC — Username and password
+Table=DimProperty</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="282" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>FactId</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="462" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="FactId" selected="True" />
+            <SelectField field="licstatus" selected="True" />
+            <SelectField field="result" selected="True" />
+            <SelectField field="viol_level" selected="True" />
+            <SelectField field="viol_status" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
+        <Position x="1374" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <JoinByRecPos value="True" />
+          <OutputJoinOnly value="False" />
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Input_#1_BusinessId" selected="True" />
+                <SelectField field="Input_#2_sor_key" selected="False" rename="Input_#2_sor_key" />
+                <SelectField field="Input_#2_DateId" selected="True" />
+                <SelectField field="Input_#3_sor_key" selected="False" rename="Input_#3_sor_key" />
+                <SelectField field="Input_#3_ViolationId" selected="True" />
+                <SelectField field="Input_#4_sor_key" selected="False" rename="Input_#4_sor_key" />
+                <SelectField field="Input_#4_LicenseId" selected="True" />
+                <SelectField field="Input_#5_FactId" selected="True" />
+                <SelectField field="Input_#5_licstatus" selected="True" />
+                <SelectField field="Input_#5_result" selected="True" />
+                <SelectField field="Input_#5_viol_level" selected="True" rename="Input_#5_viol_level" />
+                <SelectField field="Input_#5_viol_status" selected="True" />
+                <SelectField field="Input_#6_sor_key" selected="False" rename="Input_#6_sor_key" />
+                <SelectField field="Input_#6_GeoId" selected="True" />
+                <SelectField field="Input_#7_sor_key" selected="False" rename="Input_#7_sor_key" />
+                <SelectField field="Input_#7_PropertyId" selected="True" />
+                <SelectField field="Input_#7_address" selected="False" rename="Input_#7_address" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoinMultiple" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1566" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File />
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions UseDcm="true" MaxRecords="" Format="23">
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TableStyle>Quoted</TableStyle>
+            <TransactionMessages>False</TransactionMessages>
+            <Table>FactBoston</Table>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <OutputOption>Create</OutputOption>
+            <Connection DcmType="ConnectionId">12f054d8-19b7-4b81-be50-84697a10f66b</Connection>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:MySQL ODBC — Username and password
+Table=FactBoston</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Unique" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection name="#6">
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection name="#7">
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection name="#5">
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Unique" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Unique" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Unique" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>BostonFoodInspectionWorkflow</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="562bf032-a6bd-438f-8316-198ba8ac14da" />
+      <Telemetry>
+        <PreviousWorkflowId value="6d6f04d0-36a2-4293-ad6e-a35b68167a7e" />
+        <OriginWorkflowId value="6d6f04d0-36a2-4293-ad6e-a35b68167a7e" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
